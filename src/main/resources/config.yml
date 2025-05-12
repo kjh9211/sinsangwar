@@ -1,0 +1,30 @@
+# Sinsang Plugin Config
+
+defaults:
+  health: 100.0
+  teleportEnabled: true
+  captureCooldownSeconds: 3
+  maxHitsPerSecond: 5
+
+scheduling:
+  autoWar:
+    enabled: true
+    time:
+      hour: 20
+      minute: 0
+      second: 0
+
+webhooks:
+  errorWebhook: "https://your-error-webhook-link"
+  captureWebhook: "https://your-capture-webhook-link"
+  finalResultWebhook: "https://your-finalresult-webhook-link"
+
+sinsangs:
+  - name: sinsang1
+    displayName: "§b신상 1호"
+    health: 150
+    teleport: true
+  - name: sinsang2
+    displayName: "§c신상 2호"
+    health: 200
+    teleport: false

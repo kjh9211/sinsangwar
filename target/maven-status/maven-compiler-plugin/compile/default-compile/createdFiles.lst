@@ -1,0 +1,5 @@
+com\sinsang\utils\WebhookUtil.class
+com\sinsang\SinsangWarPlugin.class
+com\sinsang\entity\SinsangEntity.class
+com\sinsang\command\SinsangCommand.class
+com\sinsang\manager\SinsangManager.class

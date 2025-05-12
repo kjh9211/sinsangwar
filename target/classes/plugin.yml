@@ -1,0 +1,12 @@
+name: SinsangWar
+version: 1.0
+main: com.sinsang.SinsangWarPlugin
+api-version: 1.20
+commands:
+  sinsang:
+    aliases: [ss]
+    description: 신상 플러그인 명령어
+permissions:
+  sinsang.admin:
+    description: 신상 전용 관리자 권한
+    default: op
